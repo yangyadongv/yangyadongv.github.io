@@ -1,10 +1,9 @@
 <html>
 <head>
-	<meta name="generator" content="Hugo 0.79.0" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>yyd&#39;s homepage</title>
+    <title>yyd&#39;s homepage - Posts </title>
     
     
     <meta content="yyd&#39;s homepage" name="keywords">
@@ -17,8 +16,8 @@
     
 
     
-        <link href="/index.xml" rel="alternate" type="application/rss&#43;xml" title="yyd&#39;s homepage" />
-        <link href="/index.xml" rel="feed" type="application/rss&#43;xml" title="yyd&#39;s homepage" />
+        <link href="/post/index.xml" rel="alternate" type="application/rss&#43;xml" title="yyd&#39;s homepage" />
+        <link href="/post/index.xml" rel="feed" type="application/rss&#43;xml" title="yyd&#39;s homepage" />
     
 
     
@@ -96,66 +95,25 @@ layui.use('element', function(){
 
         <div id="content" style="min-height:80%">
 
-<main>
+<main id="main">
 
-
-
-
-<div class="layui-container">
-    <div class="layui-row about">
-        <div class="layui-col-xs12 layui-col-sm4 layui-col-md4 about_left">
-            <img class="lazyload about_portrait" data-src="https://i.loli.net/2020/12/04/t7b3xBag4KWXS9j.png" />
-            <h1> 杨亚东 </h1>
-            <h2> 你说明天会不会太远 </h2>
-            
-            
-            
-            <div class="layui-row layui-col-space10 about_left_icon">
-                
-                <div class="layui-col-md3 layui-col-sm3 layui-col-xs3">
-                <a href="mailto:yangyadongv@hust.edu.cn"><i class="fa fa-envelope-o" style="font-size:32px;"></i></a>
-                </div>
-                
-                <div class="layui-col-md3 layui-col-sm3 layui-col-xs3">
-                <a href="https://github.com/yangyadongv/"><i class="fa fa-github" style="font-size:32px;"></i></a>
-                </div>
-                
-                <div class="layui-col-md3 layui-col-sm3 layui-col-xs3">
-                <a href="%e4%b8%8d%e5%91%8a%e8%af%89%e4%bd%a0"><i class="fa fa-weibo" style="font-size:32px;"></i></a>
-                </div>
-                
-                <div class="layui-col-md3 layui-col-sm3 layui-col-xs3">
-                <a href="secret"><i class="fa fa-twitter" style="font-size:32px;"></i></a>
-                </div>
-                
+<div class="layui-fluid list-show" >
+    <div class="layui-row">
+        <div class="layui-col-md6 layui-col-sm12 layui-col-xs12">
+            <div class="list-show-title">
+                <h1>These are my blogs</h1>
+                <h2>and also my life</h2>
             </div>
-            
-
         </div>
-        <div class="layui-col-xs12 layui-col-sm8 layui-col-md8 about_right">
-            <h1>Biography</h1>
-            <h2>    <p> developer && huster</p>
-    <p> 2015-2019 华中科技大学光学与电子信息学院</p>
-    <p> 2019-至今  华中科技大学人工智能与自动化学院</p>
-    <br />
-    <p> 努力生活</p>
-    <br />
-    <p> Email:yangyadongv@hust.edu.cn</p>
-    <p> Github:https://github.com/yangyadongv</p>
-    </h2>
+        <div class="layui-col-md6 layui-col-sm12 layui-col-xs12" style="text-align:center;">
+            <img src="/self/img/undraw_chat_bot_kli5.png" class="list-title-pic">
         </div>
     </div>
 </div>
 
-<div class="layui-fluid recent" >
-    <div class="layui-container">
-        <div class="layui-row recent-inner" >
-            <div class="layui-col-md8 layui-col-sm8 layui-col-xs12">
-                <h1> Recent Posts </h1>
-                
-                    
-                    
-                            <blockquote class="self-elem-quote self-elem-quote-bg-green" style="background-color:#FFFFFF;margin-top: 10px;">
+<div class="layui-container">
+        
+            <blockquote class="self-elem-quote self-elem-quote-bg-green" style="background-color:#FFFFFF;margin-top: 10px;">
         <a href="/post/%E7%AC%AC%E4%BA%8C%E7%AF%87/">
             <h2 class="">第二篇</h2>
         </a>
@@ -181,8 +139,8 @@ layui.use('element', function(){
         </h3>
     </blockquote>
 
-                    
-                            <blockquote class="self-elem-quote self-elem-quote-bg-green" style="background-color:#FFFFFF;margin-top: 10px;">
+    
+            <blockquote class="self-elem-quote self-elem-quote-bg-green" style="background-color:#FFFFFF;margin-top: 10px;">
         <a href="/post/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%B5%8B%E8%AF%95/">
             <h2 class="">第一篇文章测试</h2>
         </a>
@@ -208,36 +166,30 @@ layui.use('element', function(){
         </h3>
     </blockquote>
 
-                    
-                
-            </div>
+    
 
-            <div class="layui-col-md4 layui-col-sm4 layui-col-xs12">
-
-                
-                <input id="search" type="text" name="search" placeholder="Intra-Site Search" autocomplete="off" class="layui-input">
-                <script type="text/javascript">
-                    $("#search").keyup(function(event){
-                        if(event.keyCode ==13){
-                            document.location = "https://www.google.com/search?q=" + $("#search").val() + "+site%3Ahttps:\/\/yangyadongv.github.io"
-                        }
-                    });
-                </script>
-                
-
-                
-                    <h1><a href="/categories">categories</a> </h1>
-                    
-                
-                    <h1><a href="/series">series</a> </h1>
-                    
-                
-                    <h1><a href="/tags">tags</a> </h1>
-                    
-                
-            </div>
-        </div>
+    
+<div class="pager">
+    <div class="layui-btn-group">
+        <button type="button" class="layui-btn layui-btn-primary layui-btn-sm">
+            <a href="/post/"><i class="layui-icon">&#xe65a;</i></a>
+        </button>
+        
+        <button type="button" class="layui-btn layui-btn-disabled layui-btn-sm">
+            <i class="layui-icon">&#xe603;</i>
+        </button>
+        
+        
+        <button type="button" class="layui-btn layui-btn-disabled layui-btn-sm">
+            <i class="layui-icon">&#xe602;</i>
+        </button>
+        
+        <button type="button" class="layui-btn layui-btn-primary layui-btn-sm">
+            <a href="/post/"><i class="layui-icon">&#xe65b;</i></a>
+        </button>
     </div>
+</div>
+
 </div>
 
 </main>
